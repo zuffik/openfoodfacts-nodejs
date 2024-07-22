@@ -2,7 +2,7 @@
   "name": "openfoodfacts-nodejs",
   "version": "2.0.0",
   "description": "Open Food Facts API NodeJS Wrapper",
-  "types": "dist/main.d.ts",
+  "types": "./dist/main",
   "scripts": {
     "prepack": "yarn run build",
     "postinstall": "yarn run build",
@@ -34,7 +34,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/openfoodfacts/openfoodfacts-nodejs.git"
+    "url": "git+https://github.com/zuffik/openfoodfacts-nodejs.git"
   },
   "keywords": [
     "OFF",
@@ -45,9 +45,9 @@
   "author": "openfoodfacts",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/openfoodfacts/openfoodfacts-nodejs/issues"
+    "url": "https://github.com/zuffik/openfoodfacts-nodejs/issues"
   },
-  "homepage": "https://github.com/openfoodfacts/openfoodfacts-nodejs#readme",
+  "homepage": "https://github.com/zuffik/openfoodfacts-nodejs#readme",
   "dependencies": {
     "openapi-fetch": "^0.8.2"
   },
